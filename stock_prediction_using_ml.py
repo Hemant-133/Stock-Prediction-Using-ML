@@ -9,7 +9,7 @@ Original file is located at
 
 #Code For Google Stock Analysis
 
-pip install yfinance
+#pip install yfinance
 
 import pandas as pd
 import math
