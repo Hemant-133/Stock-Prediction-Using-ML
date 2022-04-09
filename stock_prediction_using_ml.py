@@ -13,14 +13,14 @@ Original file is located at
 
 import pandas as pd
 import math
-import pandas_datareader as web
+#import pandas_datareader as web
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 import matplotlib.pyplot as plt
 plt.style.use("fivethirtyeight")
-from pandas_datareader import data as web
+#from pandas_datareader import data as web
 from datetime import datetime
 import yfinance as yf
 import streamlit as st
