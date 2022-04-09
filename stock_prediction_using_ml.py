@@ -39,11 +39,11 @@ st.altair_chart(plt.show)
 
 data  = df.filter(['Close'])
 
- dataset = data.values  
+dataset = data.values  
 
- training_data_length = math.ceil(len(dataset)* .8)
+training_data_length = math.ceil(len(dataset)* .8)
 
- training_data_length
+training_data_length
 
 scaler = MinMaxScaler(feature_range=(0,1))
 scaled_data = scaler.fit_transform(dataset)
