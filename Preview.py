@@ -1,11 +1,12 @@
 import streamlit as st
 
 option = st.selectbox(
-     'How would you like to be contacted?',
+     'Stock Analysis,
      ('Amazon', 'Microsoft', 'Google', 'Apple'))
 
 if option == 'Amazon':
   st.header("Amazon Stock Analysis")
+  #st.image(image, caption='Sunrise by the mountains')
 elif option == 'Microsoft':
   st.header("Microsoft Stock Analysis")
 elif option == 'Google':
