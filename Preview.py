@@ -10,7 +10,7 @@ elif option == 'Microsoft':
   st.header("Microsoft Stock Analysis")
 elif option == 'Google':
   st.header("Google Stock Analysis")
-else option == 'Apple':
+else :
   st.header("Apple Stock Analysis")
   
   
