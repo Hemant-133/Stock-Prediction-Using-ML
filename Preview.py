@@ -1,7 +1,7 @@
 import streamlit as st
 
 option = st.selectbox(
-     'Stock Analysis,
+     'Stock Analysis',
      ('Amazon', 'Microsoft', 'Google', 'Apple'))
 
 if option == 'Amazon':
