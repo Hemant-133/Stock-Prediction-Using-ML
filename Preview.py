@@ -6,11 +6,11 @@ option = st.selectbox(
 
 if option == 'Amazon':
   st.header("Amazon Stock Analysis")
-else if option == 'Microsoft':
+elif option == 'Microsoft':
   st.header("Microsoft Stock Analysis")
-else if option == 'Google':
+elif option == 'Google':
   st.header("Google Stock Analysis")
-else if option == 'Apple':
+else option == 'Apple':
   st.header("Apple Stock Analysis")
   
   
