@@ -6,7 +6,7 @@ option = st.selectbox(
 
 if option == 'Amazon':
   st.header("Amazon Stock Analysis")
-  #st.image(image, caption='Sunrise by the mountains')
+  st.image(\Apple Stock Analysis's - Graph, caption='Sunrise by the mountains')
 elif option == 'Microsoft':
   st.header("Microsoft Stock Analysis")
 elif option == 'Google':
